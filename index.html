@@ -3,53 +3,56 @@
     <head>
         <title>Web Studio</title>
         <link rel="stylesheet" href="./style/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
     </head>
     <body>
         <header id="pageTop" class="navigation-bar">
-            <nav>
-                <a href="./index.html" class="main-logo"><span class="color-blue">Web</span><span class="color-black">Studio</span></a>
-                <a href="./index.html" class="nav-link current-page">Студія</a>
-                <a href="./portfolio.html" class="nav-link">Портфоліо</a>
-                <a href="#contacts" class="nav-link">Контакти</a>
-            </nav>
-            <address>
-                <a href="mailto:info@devstudio.com" class="adress email">info@devstudio.com</a>
-                <a href="tel:+380961111111" class="adress">+380961111111</a>
-            </address>
+            <ul class="navigation">
+                <li><a href="./index.html" class="logo"><span class="color-blue">Web</span>Studio</a></li>
+                <li><a href="./index.html" class="nav-link">Студія</a></li>
+                <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+                <li><a href="#contacts" class="nav-link">Контакти</a></li>
+            </ul>
+            <ul class="adress">
+                <li><a href="mailto:info@devstudio.com" class="adress email">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="adress">+380961111111</a></li>
+            </ul>
         </header>
 
         <main>
             <section class="text-with-button">
-                <h1 class="text-for-order">Ефективні рішення для<br> вашого бізнесу</h1>
+                <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
                 <button class="make-order" type="button">Замовити послугу</button>
             </section>
 
             <section>
+                <h2></h2>
                 <ul class="feature-list">
                     <li class="feature">
-                        <p class="feture-name">Увага до дуталей</p>
+                        <h3 class="feature-title">Увага до дуталей</h3>
                         <p class="feature-mean">
                             Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                         </p>
                     </li>
 
                     <li class="feature">
-                        <p class="feture-name">Пунктуальність</p>
+                        <h3 class="feature-title">Пунктуальність</h3>
                         <p class="feature-mean">
                             Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                         </p>
                     </li>
 
                     <li class="feature">
-                        <p class="feture-name">Планування</p>
+                        <h3 class="feature-title">Планування</h3>
                         <p class="feature-mean">
                             Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
 
                     <li class="feature">
-                        <p class="feture-name">Сучасні технології</p>
+                        <h3 class="feature-title">Сучасні технології</h3>
                         <p class="feature-mean">
                             Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                         </p>
@@ -58,16 +61,16 @@
             </section>
 
             <section id="portfolio" class="portfolio">
-                <h2>Чим ми займаємося</h2>
+                <h2 class="section-title">Чим ми займаємося</h2>
                 <ul class="portfolio-img">
-                    <li><img src="./images/image1.jpg" alt="Робота за компьютером" width="370px" height="294px"></li>
-                    <li><img src="./images/image2.jpg" alt="Робота за компьютером та телефоном" width="370px" height="294px"></li>
-                    <li><img src="./images/image3.jpg" alt="Робота за планшетом" width="370px" height="294px"></li>
+                    <img src="./images/image1.jpg" alt="Робота за компьютером" width="370px" height="294px">
+                    <img src="./images/image2.jpg" alt="Робота за компьютером та телефоном" width="370px" height="294px">
+                    <img src="./images/image3.jpg" alt="Робота за планшетом" width="370px" height="294px">
                 </ul>
             </section>
 
             <section id="team" class="team">
-                <h2>Наша команда</h2>
+                <h2 class="section-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="part-of-team">
                         <img src="./images/igor.jpg" alt="Хлопець у окулярах" width="270px" height="260px">
@@ -99,7 +102,7 @@
         <footer id="contacts" class="contacts">
             <address>
                 <ul class="adress-list">
-                    <li class="footer"><a href="./index.html" class="main-logo"><span class="color-blue">Web</span><span class="color-black">Studio</span></a></li>
+                    <li class="footer"><a href="./index.html" class="logo footer"><span class="color-blue">Web</span>Studio</a></li>
                     <li class="address-footer"><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="map-adress">м. Київ, пр-т Лесі Українки, 26</a></li>
                     <li class="address-footer"><a href="mailto:info@devstudio.com" class="email-tel">info@devstudio.com</a></li>
                     <li class="address-footer"><a href="tel:+380961111111" class="email-tel">+380961111111</a></li>

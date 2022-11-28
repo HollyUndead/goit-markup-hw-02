@@ -22,22 +22,20 @@ button:hover{
     cursor: pointer;
 }
 
-h2{
-    width: fit-content;
-    margin: 0 auto;
-     
-    font-style: normal;
+.section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: rgba(33, 33, 33, 1);
 }
 
 body{
-    overflow-x: hidden;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+    font-size: 14px;
 }
 
 
@@ -52,17 +50,30 @@ body{
     align-items: center;
 }
 
+.navigation{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-link{
     margin-left: 50px;
+    font-weight: 500;
+    
+    line-height: 1.15;
+    letter-spacing: 0.02em;
 }
 
 .adress{
     color: rgba(117, 117, 117, 1);
-     
-    font-style: normal;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    
+    line-height: 1.15;
     letter-spacing: 0.02em;
 }
 
@@ -70,14 +81,14 @@ body{
     margin-right: 50px;
 }
 
-.main-logo{
+.logo{
     margin-right: 43px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
 }
 
 .color-blue{
@@ -85,13 +96,11 @@ body{
 
 }
 
-.color-black{
-    color: rgba(0, 0, 0, 1);
-}
 
 
 
 .text-with-button{
+     
     margin-left: calc(50% - 50vw);
     width: 100vw;
     height: 600px;
@@ -105,12 +114,10 @@ body{
     flex-direction: column;
 }
 
-.text-for-order{
-     
-    font-style: normal;
+.hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.365;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -146,21 +153,13 @@ body{
 }
 
 .feature-mean{
-     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(117, 117, 117, 1);
 }
 
-.feature-name{
-     
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+.feature-title{
+    line-height: 0.98;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgba(33, 33, 33, 1);
@@ -179,6 +178,7 @@ body{
 }
 
 .portfolio{
+     
     margin-left: calc(50% - 50vw);
     width: 100vw;
 }
@@ -192,11 +192,12 @@ body{
 
 
 .team{
+     
     margin-left: calc(50% - 50vw);
     width: 100vw;
     background: rgba(245, 244, 250, 1);
     padding-bottom: 94px;
-    padding-top: 94px;
+    padding-top: 64px;
     margin-top: 94px;
 }
 
@@ -217,33 +218,26 @@ body{
     height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    overflow: hidden;
+     
     padding: 0;
 }
 
 .team-member-name{
-    width: fit-content;
-    height: 19px;
     margin: 30px auto 10px;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: rgba(33, 33, 33, 1);
 }
 
 .team-member-post{
-    width: fit-content;
-    height: 19px;
     margin: 10px auto 30px;
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: rgba(117, 117, 117, 1);
@@ -269,18 +263,15 @@ body{
     margin-bottom: 20px;
 }
 
-.adress-list>a{
-     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+.logo.footer{
+    color: rgba(255, 255, 255, 1);
 }
 
 .address-footer{
     margin-bottom: 9px;
-    height: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .email-tel{
@@ -291,6 +282,9 @@ body{
     color: rgba(255, 255, 255, 1);
 }
 
+.map-adress:hover{
+    color: rgba(255, 255, 255, 1);
+}
 
 
 
@@ -349,29 +343,25 @@ body{
 
 .project-name{
     width: 322px;
-    height: 36px;
     margin: 20px 24px 0;
 
 
      
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: rgba(33, 33, 33, 1);
 }
 
 .project-category{
     width: 322px;
-    height: 30px;
     margin: 4px 24px 20px;
 
      
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: rgba(117, 117, 117, 1);
 }
